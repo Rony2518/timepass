@@ -53,7 +53,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
     .behind {
-        font-size: 20px;
+        font-size: 25px;
     }
     .click {
         font-size: 1rem;
