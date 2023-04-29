@@ -55,29 +55,3 @@ body {
         padding: 8px 16px;
     }
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh; /* Decrease height to make the .container smaller */
-    background: url('background-image.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-.behind {
-    font-size: 3rem; /* Decrease font size to make the text smaller */
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-
-.behind.open {
-    opacity: 1;
-}
-
