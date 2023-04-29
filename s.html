@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="behind">THNAK YOU<span>&#129303</span></div>
+        <div class="button">
+            <button class="click">Enter</button>
+        </div>
+    </div>
+    <script>
+        let btn = document.querySelector('.click');
+        let behind = document.querySelector('.behind');
+
+        btn.onclick = () => {
+            behind.classList.toggle('open');
+        }
+
+    </script>
+</body>
+
+</html>
