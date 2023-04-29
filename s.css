@@ -45,3 +45,13 @@ body {
 .behind.open{
     opacity: 1;
 }
+@media only screen and (max-width: 600px) {
+    .behind {
+        font-size: 3rem;
+    }
+
+    .click {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
