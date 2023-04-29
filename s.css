@@ -59,8 +59,7 @@ body {
             rgb(255, 255, 255, 0.1),
             rgb(255, 255, 255, 0.1));
     backdrop-filter: blur(12px);
-    width: 100px;
-    height: 200px;
+    padding: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
